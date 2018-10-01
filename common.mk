@@ -154,3 +154,8 @@ PRODUCT_PACKAGES_DEBUG += \
 # Wallpapers
 PRODUCT_PACKAGES += \
     WallpapersBReel2018
+
+#Wifi
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilts/etc/WCNSS_qcom_cfg.ini:/vendor/etc/wifi/WCNSS_qcom_cfg.ini 
+
