@@ -32,4 +32,13 @@
 /system/bin/hw/android.hardware.health@2.0-service.oneplus6 u:object_r:hal_health_omni_exec:s0
 /sys/devices/platform/soc/1d84000\.ufshc/host0/target0:0:0/0:0:0:0/block/sda/stat u:object_r:sysfs_batteryinfo:s0
 
+# Dynamic camera package name
 /data/vendor/omni/client_package_name                u:object_r:vendor_data_file:s0
+
+# Display Mode
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/SRGB           u:object_r:sysfs_dm:s0
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/hbm            u:object_r:sysfs_dm:s0
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/night_mode     u:object_r:sysfs_dm:s0
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/DCI_P3         u:object_r:sysfs_dm:s0
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/adaption_mode  u:object_r:sysfs_dm:s0
+/sys/devices/platform/soc/ae00000\.qcom\,mdss_mdp/drm/card0/card0-DSI-1/oneplus_mode   u:object_r:sysfs_dm:s0
