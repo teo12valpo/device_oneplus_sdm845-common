@@ -119,9 +119,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilts
 PRODUCT_PACKAGES += \
-    OnePlusCamera \
-    OnePlusGallery \
-    OnePlusCameraService
+    GoogleModCamera
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilts/addon.d/51-oneplus-camera.sh:system/addon.d/51-oneplus-camera.sh  \
